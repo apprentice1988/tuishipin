@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 #source 'http://ruby.taobao.org'
 
+ruby '2.1.1'
 gem 'rails', '4.1.0.rc1'
 gem 'sass-rails', '~> 4.0.1'
 gem 'pg'
@@ -11,6 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'nokogiri'
+gem 'redis'
 
 
 group :development do

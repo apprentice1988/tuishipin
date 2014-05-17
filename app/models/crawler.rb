@@ -1,3 +1,3 @@
 class Crawler
-  extend Youku
+  extend YoukuCrawler
 end

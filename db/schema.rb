@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 20140516000438) do
     t.integer "downs"
     t.integer "play_seconds"
     t.integer "play_times"
-    t.integer "video_id"
+    t.integer "ori_id"
     t.text    "description"
     t.integer "video_list_id"
     t.string  "tags",          default: [], array: true

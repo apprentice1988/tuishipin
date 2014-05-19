@@ -12,9 +12,9 @@ class CreateVideoLists < ActiveRecord::Migration
       t.string :title
       t.integer :ups
       t.integer :downs
-      t.integer :play_seconds
-      t.integer :play_times
-      t.integer :ori_id
+      t.integer :last_seconds
+      t.integer :played_times
+      t.string :ori_id
       t.text :description
       t.references :video_list, index: true
       t.string :tags, array: true, default: '{}'
